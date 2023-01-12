@@ -68,15 +68,15 @@ vim.cmd "colorscheme dull-sunset" -- Sunset
 vim.cmd "colorscheme dull"
 ```
 
-<!-- ##  ⚙️ Configuration -->
+##  ⚙️ Configuration
 
-<!-- > ❗️ Configuration needs to be set **BEFORE** loading the colorscheme. -->
+> ❗️ Configuration needs to be set **BEFORE** loading the colorscheme.
 
-<!-- ```lua -->
-<!-- require("dull").setup({ -->
-<!--     style = "night" -- night, slime, sunset -->
-<!-- }) -->
-<!-- ``` -->
+```lua
+require("dull").setup({
+    style = "night" -- night, slime, sunset
+})
+```
 
 ## Credits
 Thanks to this repo I managed to create my own colorscheme.
