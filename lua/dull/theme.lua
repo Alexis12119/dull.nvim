@@ -175,10 +175,10 @@ function M.setup()
     TabLineSel = { fg = color.fg, bg = color.bg },
 
     -- Bufferline
-    BufferLineSeparator = {
-      fg = color.indicator or color.slime or color.sky,
-      bg = color.sunset_separator or color.slime_separator or color.night_separator,
-    },
+    -- BufferLineSeparator = {
+    --   fg = color.indicator or color.slime or color.sky,
+    --   bg = color.sunset_separator or color.slime_separator or color.night_separator,
+    -- },
     BufferLineFill = { bg = color.dark_red or color.directory or color.night },
     BufferLineIndicatorSelected = {
       fg = color.indicator or color.slime or color.sky or color.transparent_header,
