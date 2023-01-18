@@ -7,8 +7,9 @@ M.transparent = {
 }
 
 M.night = {
-  -- night_bg = "#161819",
-  bg = "#16161E",
+  -- bg = "#161819",
+  -- bg = "#16161E",
+  bg = "#0E131B",
   night = "#1A1b26",
   night_statusline = "#202328",
   night_header = "#545C7E",
