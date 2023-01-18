@@ -20,8 +20,6 @@ function M.setup()
     theme.palette = vim.tbl_deep_extend("force", {}, colors.colors, colors.night)
   elseif style == "slime" then
     theme.palette = vim.tbl_deep_extend("force", {}, colors.colors, colors.slime)
-  elseif style == "transparent" then
-    theme.palette = vim.tbl_deep_extend("force", {}, colors.colors, colors.transparent)
   else
     theme.palette = colors
   end
@@ -32,16 +30,16 @@ function M.setup()
   end
 
   theme.highlights = {
-    MsgArea = { fg = color.fg, bg = color.bg or color.transparent },
-    Normal = { fg = color.fg, bg = color.bg or color.transparent },
-    NormalNC = { fg = color.fg, bg = color.bg or color.transparent },
+    MsgArea = { fg = color.fg, bg = color.bg },
+    Normal = { fg = color.fg, bg = color.bg },
+    NormalNC = { fg = color.fg, bg = color.bg },
     SignColumn = {
       fg = color.fg,
-      bg = color.bg or color.transparent,
+      bg = color.bg,
     },
     SignColumnSB = {
       fg = color.fg,
-      bg = color.bg or color.transparent,
+      bg = color.bg,
     },
     Conceal = { fg = color.dark5 },
     ColorColumn = {
@@ -54,14 +52,14 @@ function M.setup()
     },
     LineNr = {
       fg = color.dark3,
-      bg = color.bg or color.transparent,
+      bg = color.bg,
     },
     CursorLineNr = {
       fg = color.fg_cursorlinenr,
-      bg = color.bg or color.transparent,
+      bg = color.bg,
     },
-    Directory = { fg = color.sunset_root or color.slime or color.sky or color.transparent_header },
-    EndOfBuffer = { fg = color.bg or color.transparent },
+    Directory = { fg = color.sunset_root or color.slime or color.sky },
+    EndOfBuffer = { fg = color.bg },
     Substitute = { fg = color.fg, bg = color.terminal_black },
     FocusedSymbol = { fg = color.blue, bg = color.none },
     Folded = { fg = color.blue, bg = color.fg_gutter },
@@ -140,13 +138,13 @@ function M.setup()
     SpellRare = { sp = color.yellow, undercurl = true },
 
     --Statusline
-    StatusLineNC = { bg = color.bg or color.transparent },
+    StatusLineNC = { bg = color.bg },
     StatusLine = { fg = color.fg_sidebar, bg = color.dark_red or color.slime_column or color.night },
 
     -- Float
     NormalFloat = {
       fg = color.fg,
-      bg = color.bg or color.transparent,
+      bg = color.bg,
     },
     FloatBorder = { fg = color.border or color.light_red or color.slime_border, bg = color.none },
 
@@ -185,7 +183,7 @@ function M.setup()
     -- },
     BufferLineFill = { bg = color.dark_red or color.directory or color.night },
     BufferLineIndicatorSelected = {
-      fg = color.indicator or color.slime or color.sky or color.transparent_header,
+      fg = color.indicator or color.slime or color.sky,
     },
 
     -- Trouble
@@ -196,15 +194,15 @@ function M.setup()
     -- GitGutter
     GitGutterAdd = {
       fg = color.green,
-      bg = color.bg or color.transparent,
+      bg = color.bg,
     },
     GitGutterChange = {
       fg = color.blue,
-      bg = color.bg or color.transparent,
+      bg = color.bg,
     },
     GitGutterDelete = {
       fg = color.red,
-      bg = color.bg or color.transparent,
+      bg = color.bg,
     },
 
     mkdCodeDelimiter = { bg = color.terminal_black, fg = color.fg },
@@ -361,7 +359,7 @@ function M.setup()
     WhichKeyBorder = { fg = color.border or color.light_red or color.slime_border, bg = color.none },
     WhichKeyFloat = { link = "NormalFloat" },
     WhichKey = { fg = color.blue9 },
-    WhichKeyGroup = { fg = color.sunset_root or color.slime or color.sky or color.transparent },
+    WhichKeyGroup = { fg = color.sunset_root or color.slime or color.sky },
     WhichKeyDesc = { fg = color.magenta },
     WhichKeySeparator = { fg = color.comment },
     WhichKeyValue = { fg = color.dark5 },
@@ -402,12 +400,12 @@ function M.setup()
     TelescopeTitle = { fg = color.fg, bg = color.none },
 
     -- Alpha
-    AlphaHeader = { fg = color.light_red or color.slime or color.night_header or color.transparent_header },
+    AlphaHeader = { fg = color.light_red or color.slime or color.night_header },
     AlphaButton = { fg = color.fg },
     AlphaFooter = { fg = color.fg },
 
     -- Dashboard
-    DashboardHeader = { fg = color.light_red or color.slime or color.night_header or color.transparent_header },
+    DashboardHeader = { fg = color.light_red or color.slime or color.night_header },
     DashboardCenter = { fg = color.fg },
     DashboardFooter = { fg = color.fg },
 
