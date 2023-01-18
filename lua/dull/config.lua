@@ -2,6 +2,7 @@ local M = {}
 
 local defaults = {
   style = "night",
+  transparent = false,
 }
 
 M.options = {}

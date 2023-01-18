@@ -75,6 +75,7 @@ vim.cmd "colorscheme dull"
 ```lua
 require("dull").setup({
     style = "night" -- night, slime, sunset
+    transparent = false, -- experimental
 })
 ```
 

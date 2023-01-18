@@ -17,7 +17,7 @@ function M.load(opts)
     require("dull.config").extend(opts)
   end
 
-  if config.options.style == "transparent" then
+  if config.options.transparent then
     vim.opt.pumblend = 0
   end
 

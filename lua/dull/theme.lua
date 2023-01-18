@@ -12,6 +12,7 @@ function M.setup()
     palette = colors,
   }
   local style = config.options.style
+  local transparent = config.options.transparent
 
   if style == "sunset" then
     theme.palette = vim.tbl_deep_extend("force", {}, colors.colors, colors.sunset)
@@ -26,6 +27,9 @@ function M.setup()
   end
 
   local color = theme.palette
+  if transparent then
+    color.bg = "NONE"
+  end
 
   theme.highlights = {
     MsgArea = { fg = color.fg, bg = color.bg or color.transparent },

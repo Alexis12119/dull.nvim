@@ -1,11 +1,5 @@
 local M = {}
 
-M.transparent = {
-  transparent = "NONE",
-  cursor_highlight = "#292E42",
-  transparent_header = "#7AA2f7",
-}
-
 M.night = {
   -- bg = "#161819",
   -- bg = "#16161E",
