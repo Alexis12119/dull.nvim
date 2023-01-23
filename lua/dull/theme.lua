@@ -181,7 +181,7 @@ function M.setup()
     --   fg = color.indicator or color.slime or color.sky,
     --   bg = color.sunset_separator or color.slime_separator or color.night_separator,
     -- },
-    BufferLineFill = { bg = color.dark_red or color.directory or color.night },
+    BufferLineFill = { bg = color.sunset_separator or color.directory or color.night },
     BufferLineIndicatorSelected = {
       fg = color.indicator or color.slime or color.sky,
     },
