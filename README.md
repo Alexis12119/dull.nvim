@@ -5,8 +5,8 @@ A colorscheme made for fun and educational purposes only.
 ## 🔔 Reminder
 
 - I'm using now the new colorscheme I made called [nightly.nvim](https://github.com/Alexis12119/nightly.nvim)
-- I won't push any commits in the repo anymore.
-* I used [Neovide](https://github.com/neovide/neovide) to make the background transparent in the screenshots.
+- I won't push any commits in this repo anymore.
+- I used [Neovide](https://github.com/neovide/neovide) to make the background transparent in the screenshots.
 
 ## 📷 Screenshots
 
