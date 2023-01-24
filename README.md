@@ -4,7 +4,7 @@ A colorscheme made for fun and educational purposes only.
 
 ## 🔔 Reminder
 
-* It's for my [nvim-config](https://github.com/Alexis12119/nvim-config).
+- I'm using now the new colorscheme I made called [nightly](https://github.com/Alexis12119/nightly.nvim)
 * I used [Neovide](https://github.com/neovide/neovide) to make the background transparent in the screenshots.
 
 ## 📷 Screenshots
